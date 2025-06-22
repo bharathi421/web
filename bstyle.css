@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.name-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-image: url('Untitled-2 (2).png'); /* change to your file */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex: 1;
+  margin-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-photo {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+h1 {
+  font-size: 50px;  
+  margin: 10px 0 5px;
+  color: #00ff99;
+  padding: 20px;
+}
+
+h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #eee;
+
+
+  width: 100%   ;
+  padding: 20px;
+}
+/* For paragraphs */
+p {
+  background-color: #eacbe9; /* soft pink */
+  padding: 30px; /* increase vertical padding */
+  margin: 10px 0;
+  border-radius: 8px;
+  margin-left: 3px;
+  
+}
+
+/* For unordered lists */
+ul {
+  background-color: #eacbe9; /* same pink */
+  padding: 30px;
+  margin: 10px 0;
+  list-style-position: inside;
+  border-radius: 8px;
+  margin-left: 3px;
+}
+
+/* Optional: list item padding if you want extra spacing inside items too */
+li {
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-left: 3px;
+}
+
+.resume-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.resume-buttons {
+  display: inline-flex;
+  gap: 20px; /* space between buttons */
+  margin-top: 20px;
+}
+
+.resume-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #388e3c;
+}
+
+/* Optional: different color for download button */
+.resume-button.download {
+  background-color: #4CAF50;
+}
+
+.resume-button.download:hover {
+  background-color: #388e3c;
+}
+
+
+
+
+.linkedin-logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+a {
+  color: #0A66C2; /* LinkedIn blue */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.gmail-logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+a {
+  color: #4285F4; /* Gmail red */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
