@@ -105,6 +105,7 @@ li {
 
 .resume-button:hover {
   background-color: #388e3c;
+  transform:scale(1.05);
 }
 
 /* Optional: different color for download button */
