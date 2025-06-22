@@ -152,18 +152,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.center-address {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Add top space */
-  font-size: 18px;
-  color: #333;
-}
-
-.icon {
-  margin-right: 10px;
-}
 
 
 
